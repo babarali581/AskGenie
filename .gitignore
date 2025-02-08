@@ -1,0 +1,55 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and output files
+logs/
+*.log
+outputs/
+
+# Ignore dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore credentials & keys (Google Cloud, AWS, Firebase, etc.)
+gcp-key.json
+empirical-state-440507-i5-d68afcce3760.json
+firebase-adminsdk.json
+
+# Ignore FastAPI generated files (if applicable)
+*.db
+*.sqlite
+*.pid
+
+# Ignore IDE and editor configurations
+.vscode/
+.idea/
+*.swp
+
+# Ignore compiled Python files
+*.egg-info/
+*.egg
+*.pyo
+*.pyc
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/

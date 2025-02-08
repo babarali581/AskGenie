@@ -1,0 +1,13 @@
+services:
+
+  gemini-rag:
+    build: .
+    container_name: rag_gemini
+    volumes:
+      - ./main.py:/usr/src/app/main.py
+      - ./empirical-state-440507-i5-d68afcce3760.json:/usr/src/app/empirical-state-440507-i5-d68afcce3760.json
+    env_file:
+      - ./.env
+    ports:
+      - 9000:9000
+
